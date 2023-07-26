@@ -24,7 +24,7 @@ jobs:
 
       - name: Get current working dir
         run: |
-          python -c "import os; print(os.getcwd()); print(os.listdir('venv'))"
+          python -c "import os; print(os.getcwd()); print(os.listdir('venv/bin'))"
 
       - name: Create and start virtual environment
         working-directory: .
