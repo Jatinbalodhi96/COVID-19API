@@ -27,7 +27,7 @@ jobs:
           python -c "import os; print(os.getcwd()); print(os.listdir())"
 
       - name: Create and start virtual environment
-        working-directory: COVID-19API'
+        working-directory: .
 
         run: |
           python -m venv venv
